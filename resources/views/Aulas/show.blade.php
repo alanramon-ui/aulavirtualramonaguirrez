@@ -1,6 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
 <div class="d-flex justify-content-between align-items-center mb-4">
     <h2>🏫 {{ $aula->nombre }}</h2>
     <a href="{{ route('aulas.index') }}" class="btn btn-sm btn-outline-secondary">← Volver a Aulas</a>
@@ -65,4 +62,3 @@
         </div>
     </div>
 </div>
-@endsection
